@@ -68,7 +68,7 @@ auto x2=2;
 auto add= x1+x2; 
 cout << add << endl; 
 
-int x, y;
+/*int x, y;
   int sum, product, diff; 
   cout << "Type the first number: ";
   cin >> x; 
@@ -82,8 +82,8 @@ int x, y;
   cout << diff << endl;
   cout << product << "\n";  
   cout << quotient; 
-  /* okayy! When we have initialised the variables (sum, diff, product, quotient), no need to pre-add data type there. 
-  if had not initialised, then would have added. */ 
+   okayy! When we have initialised the variables (sum, diff, product, quotient), no need to pre-add data type there. 
+  if had not initialised, then would have added. */  // (THIS BUNCH OF LINES SHOWING ERROR ON COMPILER).
 
 
 
