@@ -84,10 +84,46 @@ cout << add << endl;
   cout << quotient; 
    okayy! When we have initialised the variables (sum, diff, product, quotient), no need to pre-add data type there. 
   if had not initialised, then would have added. */  // (THIS BUNCH OF LINES SHOWING ERROR ON COMPILER).
+ 
 
 
-
-
-
-return 0;
+  int sum1 = 100 + 50;        // 150 (100 + 50)
+  int sum2 = sum1 + 250;      // 400 (150 + 250)
+  int sum3 = sum2 + sum2;     // 800 (400 + 400)
+  cout << sum1 << "\n";
+  cout << sum2 << "\n";
+  cout << sum3 << endl;
+  
+  int peopleInRoom = 0; 
+  peopleInRoom++; 
+  peopleInRoom++;
+  peopleInRoom++; 
+  peopleInRoom--; 
+  --peopleInRoom; 
+  ++peopleInRoom; 
+  cout << peopleInRoom; 
+  cout << "\n"; 
+  
+  int x = 145;
+  x+=5; //compsound assignment operator: x+=5 = x=x+5 
+  cout << x << endl; 
+  int age = 18;
+  cout << (age>=18) << endl; 
+  /*this is comparision operator. they always produce two values 1 (if condition is right) and 0 (if condition is wrong)*/
+  
+  cout << "Hello World! \n"; 
+  string greetings = "Hello World!"; 
+  cout << greetings << endl; 
+  string firstName = "Aman" , lastName = "Gurnani" ; 
+  cout << firstName + lastName << endl; // you can combine two strings 
+  cout << firstName.append(" ").append(lastName) << endl; 
+  
+  /* + operator is used for concenate strings and add numbers too. so be careful. */
+  string txt = "True"; 
+  cout << txt.length() << endl; 
+  cout << txt.size() << endl; 
+  
+  return 0;
 }
+
+
