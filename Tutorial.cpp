@@ -122,6 +122,62 @@ cout << add << endl;
   string txt = "True"; 
   cout << txt.length() << endl; 
   cout << txt.size() << endl; 
+
+ 
+
+int age = 25; 
+ 
+ if (age >= 18) {
+ cout << "you are eligible to vote" << endl; 
+ 
+ if (age >= 20) {
+ cout << "you can have s#x" << endl; }
+ } 
+  
+ int x1 = 56 , x2 = 48; 
+ cout << (x1 < x2) << endl; 
+ 
+ int a = 78 , y = 89; 
+ if (a > y) {
+ cout << "a is greater than b"; }
+ else { 
+ cout << "a is lesser than b" << endl; }
+ 
+
+int day = 4;
+switch (day) {
+  case 1:
+    cout << "Monday";
+    break;
+  case 2:
+    cout << "Tuesday";
+    break;
+  case 3:
+    cout << "Wednesday";
+    break;
+  case 4:
+    cout << "Thursday";
+    break;
+  case 5:
+    cout << "Friday";
+    break;
+  case 6:
+    cout << "Saturday";
+    break;
+  case 7:
+    cout << "Sunday";
+    break;
+}
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
   
   return 0;
 }
