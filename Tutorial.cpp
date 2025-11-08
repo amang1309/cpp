@@ -84,6 +84,8 @@ cout << add << endl;
   cout << quotient; 
    okayy! When we have initialised the variables (sum, diff, product, quotient), no need to pre-add data type there. 
   if had not initialised, then would have added. */  // (THIS BUNCH OF LINES SHOWING ERROR ON COMPILER).
+
+ ----------------------------------------------------------------------------------------
  
 
 
@@ -123,7 +125,7 @@ cout << add << endl;
   cout << txt.length() << endl; 
   cout << txt.size() << endl; 
 
- 
+--------------------------------------------------------------------------------- 
 
 int age = 25; 
  
@@ -168,7 +170,7 @@ switch (day) {
     cout << "Sunday";
     break;
 }
-
+--------------------------------------------------------------
 
   for (int i = 5; i > 0; i--) {
     cout << i << "\n";
@@ -207,6 +209,51 @@ cout << "Sum is " << sum << endl;
    { for (int t2=10; t2>=1; t2--)
    p = t1 * t2; 
    cout << p << endl; } */
+
+
+ for (int power = 2; power <=512; power *=2)
+    { if (power == 128) 
+    { continue ; } 
+    
+    cout << power << endl; }
+    
+    int i = 2; 
+    while (i<=512)
+    { if (i==216)
+    { break; } 
+    i *= 2; 
+    cout << i << endl;} 
+    
+    int p = 2; 
+    while (p<=512)
+    { if (p==4)
+    { continue; } 
+    p *= 2; 
+    cout << p << endl;} 
+
+ ---------------------------------------------------------------------------------------
+
+  for (int power = 2; power <=512; power *=2)
+    { if (power == 128) 
+    { continue ; } 
+    
+    cout << power << endl; }
+    
+    int i = 2; 
+    while (i<=512)
+    { if (i==216)
+    { break; } 
+    i *= 2; 
+    cout << i << endl;} 
+    
+    int p = 2; 
+    while (p<=512)
+    { if (p==4)
+    { continue; } 
+    p *= 2; 
+    cout << p << endl;} 
+    
+    
    
    
   
