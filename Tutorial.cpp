@@ -170,6 +170,54 @@ switch (day) {
 }
 
 
+  for (int i = 5; i > 0; i--) {
+    cout << i << "\n";
+  }
+  
+   cout << "the Even numbers between 0 to 20, are: " << endl; 
+  for (int l = 0; l <= 20; l = l+2) 
+  { cout << l << endl;} 
+  
+  
+  int sum = 0;
+for (int k = 1; k <= 5; k++) {
+  sum = sum + k;
+}
+cout << "Sum is " << sum << endl; 
+  
+  
+  int m = 10; 
+  while (m > 0)
+  {cout << m << endl ; 
+  m--; } 
+  cout << "Happy New Year!!" << endl; 
+  
+  
+  cout << "Sir will be there in"<< endl; 
+  for (int n = 10; n >= 1; --n)
+   { cout << n << endl; }
+   
+   int product; 
+   for (int t=1; t <= 10; t++)
+   {product = 5*t; 
+   cout << "5 * " << t << " = "<< product << endl;}
+   
+   /*int p; 
+   for (int t1=1; t1<=10; t1++)
+   { for (int t2=10; t2>=1; t2--)
+   p = t1 * t2; 
+   cout << p << endl; } */
+   
+   
+  
+  
+  
+  
+  
+  
+
+
+
 
 
  
