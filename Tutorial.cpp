@@ -257,7 +257,7 @@ cout << "Sum is " << sum << endl;
   #include <iostream> 
 using namespace std; 
 int main() {
-    string name[5] = {"Tanmay ", "Rahul ", "Khush ", "Kartik ", "Ram"}; 
+     string name[5] = {"Tanmay "}; 
     /*cout << name[2] << endl; */
     
     /*name[2] = "Priya"; 
@@ -269,20 +269,34 @@ int main() {
     int j = 0; 
     while (j < 5){
         cout << name[j] << endl; 
-        j++; 
+        j++; //using while loop. 
     }
     cout << endl; 
     
     for (string names : name) {
         cout << names << endl; 
-    }
+    }     
+ //using for-each or range-based loop. here we have to declare another variable (names) 
+    cout << endl; 
     
+    string subject[] = {"Eng", "Hindi", "Maths", "Science", "SST", "Fine Arts"}; 
+    cout << sizeof(subject) << endl;
+    cout << sizeof(subject)/sizeof(subject[0]) << endl; 
     
-    
+   for (int i = 0; i < sizeof(name)/sizeof(name[0]); i++){
+       cout << name[i] << endl; 
+   } //loop using sizeof operator. Helpful when we have a large no. of values in an array. witout wasting time in counting, we can use sizeof operator to print the exact cout of all the values in the array. 
+   
+   string alpha[3][3] = {"A ", "B ", "C ", "D ", "E ", "F ", "G ", "H ", "I "};
+   for (int z = 0; z < 3; z ++){
+       for (int y = 0; y < 3; y ++){
+           cout << alpha[z][y];
+       }
+       cout << endl; 
+   }
 
 return 0; 
 }
-    
     
    
    
