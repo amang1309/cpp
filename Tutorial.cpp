@@ -252,6 +252,36 @@ cout << "Sum is " << sum << endl;
     { continue; } 
     p *= 2; 
     cout << p << endl;} 
+
+ ----------------------------------------------------------------------------------------------
+  #include <iostream> 
+using namespace std; 
+int main() {
+    string name[5] = {"Tanmay ", "Rahul ", "Khush ", "Kartik ", "Ram"}; 
+    /*cout << name[2] << endl; */
+    
+    /*name[2] = "Priya"; 
+    cout << name[2] << endl << endl;*/
+    
+    /*for (int i = 0;i < 5; i++ ){
+        cout << name[i] << endl;
+    }*/
+    int j = 0; 
+    while (j < 5){
+        cout << name[j] << endl; 
+        j++; 
+    }
+    cout << endl; 
+    
+    for (string names : name) {
+        cout << names << endl; 
+    }
+    
+    
+    
+
+return 0; 
+}
     
     
    
