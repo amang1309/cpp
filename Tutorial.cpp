@@ -300,25 +300,51 @@ return 0;
     
    
    
-  
-  
-  
-  
-  
-  
 
 
+#include <iostream>
+using namespace std; 
 
+void myFunction() /*Declaration (before { */ { 
+    cout << "Hello, I am Aman Gurnani"; 
+} /* between both curly braces, comes defination part (what a function is to do.*/
 
-
- 
- 
- 
- 
- 
-
-  
-  return 0;
+int main () {
+    myFunction(); /* calling of the function*/
+    
+    return 0; 
 }
+
+
+/*#include <iostream> 
+using namespace std; 
+void add(int a , int b) { 
+    int sum = a + b; 
+    cout << sum; 
+    
+} 
+int main () { 
+    int num1, num2; 
+    cout << "enter 1st value : " << endl; 
+    cin >> num1; 
+    cout << "Enter 2nd Value : " << endl; 
+    cin >> num2; 
+    add(num1 , num2); 
+    return 0; 
+    
+}*/
+
+#include <iostream> 
+using namespace std; 
+int myFunction(int x) { 
+    return 5 + x; 
+    
+} 
+int main() { 
+    cout << myFunction(3); 
+    return 0; 
+    
+}
+
 
 
